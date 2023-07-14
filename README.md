@@ -1,5 +1,5 @@
 
-# NLP Project: Classification of legitimate/fake translator CVs
+# NLP Project: Classification of real/fake translator CVs
 
 I came up with the idea for this NLP project while browsing a bunch of e-mail messages with appended CVs in pdf-format from individuals offering translation services. The faulty syntax of their contents made me suspicious, because being a linguist you should put all your efforts into writing correct English even if you are not a native speaker.
 

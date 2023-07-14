@@ -21,7 +21,7 @@ The project comprises several stages:
 
     b) fake resumes obtained by cross-referencing a master table from http://www.translator-scammers.com/ and about 10,000 e-mails messages received by an LSP.
 
-    c) The resumes are available in pdf-format and had to be converted to text-only. Storage of the labelled resumes in a no-SQL database (MongoDB). Details here.
+    c) The fake resumes are available in pdf-format and had to be converted to text-only. Some of the legitimate resumes were available as Word, RTF and OpenOffice files and had to be converted to pdf. I decided to store the labelled resumes in a no-SQL database (MongoDB), although they are available as Pickles in my repository.
 
 
 2. [Analysis of the data-set](analysis/):

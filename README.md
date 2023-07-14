@@ -16,11 +16,17 @@ So I have tried to develop a classification model for translator resumes. My dat
 The project comprises several stages:
 
 1. [Creation of the data corpus](dataset-prep/):
+
     a) legitimate resumes downloaded from proz.com
+
     b) fake resumes obtained by cross-referencing a master table from http://www.translator-scammers.com/ and about 10,000 e-mails messages received by an LSP.
-    b) The resumes are available in pdf-format and had to be converted to text-only. Storage of the labelled resumes in a no-SQL database (MongoDB). Details here.
+
+    c) The resumes are available in pdf-format and had to be converted to text-only. Storage of the labelled resumes in a no-SQL database (MongoDB). Details here.
+
 
 2. [Preprocessing of data corpus](analysis/):
+
     a) Analysis of the data corpus: segmentation, lemmatization, stemming, normalization, NER (Named Entity Recognition). Main tool: Spacy
+
 
 3. [Testing of different classification models](models/):

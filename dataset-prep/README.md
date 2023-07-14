@@ -1,0 +1,1 @@
+![Workflow of the dataset creation](documents/img/dataset-creation-wf.png "Worfklow of the dataset creation")

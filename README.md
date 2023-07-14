@@ -15,7 +15,7 @@ So I have tried to develop a classification model for translator resumes. My dat
 
 The project comprises several stages:
 
-1. [Creation of the data corpus](dataset-prep/):
+1. [Creation and pre-processing of the data set](dataset-prep/):
 
     a) legitimate resumes downloaded from proz.com
 
@@ -24,9 +24,9 @@ The project comprises several stages:
     c) The resumes are available in pdf-format and had to be converted to text-only. Storage of the labelled resumes in a no-SQL database (MongoDB). Details here.
 
 
-2. [Preprocessing of data corpus](analysis/):
+2. [Analysis of the data-set](analysis/):
 
-    a) Analysis of the data corpus: segmentation, lemmatization, stemming, normalization, NER (Named Entity Recognition). Main tool: Spacy
+    a) Segmentation, lemmatization, stemming, normalization, NER (Named Entity Recognition). Main tool: Spacy
 
 
 3. [Testing of different classification models](models/):
